@@ -1,0 +1,37 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="canvaGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00D4FF;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#7D2AE7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF0080;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="canvaRadial" cx="50%" cy="30%" r="70%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#FFFFFF;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="95" fill="url(#canvaGradient)" stroke="#FFFFFF" stroke-width="2"/>
+  <circle cx="100" cy="100" r="95" fill="url(#canvaRadial)"/>
+  
+  <!-- Simplified Canva logo -->
+  <g transform="translate(100,100)">
+    <!-- Letter C -->
+    <path d="M-45,-20 Q-55,-30 -35,-30 Q-15,-30 -15,-10 Q-15,10 -35,10 Q-55,10 -45,0" 
+          fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2"/>
+    
+    <!-- Letter A -->
+    <path d="M-5,-30 L5,10 L15,10 L0,-30 L-10,-10 L10,-10 Z" 
+          fill="#FFFFFF"/>
+    
+    <!-- Letter N -->
+    <path d="M25,-30 L25,10 L35,10 L35,-20 L45,10 L55,10 L55,-30 L45,-30 L45,-10 L35,-30 Z" 
+          fill="#FFFFFF"/>
+    
+    <!-- Decorative elements -->
+    <circle cx="-70" cy="-50" r="3" fill="#FFFFFF" opacity="0.8"/>
+    <circle cx="70" cy="50" r="4" fill="#FFFFFF" opacity="0.6"/>
+    <rect x="-80" y="40" width="6" height="6" fill="#FFFFFF" opacity="0.7" rx="2"/>
+  </g>
+</svg> 
